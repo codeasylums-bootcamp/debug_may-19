@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+
+<head>
+
+	<title>MovieMonk</title>
+
+	<!-- Meta-Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords"
+		content="Multi Tabs Resume Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //Meta-Tags -->
+
+	<!-- Custom-Style-Sheet -->
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<!-- //Custom-Style-Sheet -->
+
+	<!-- Fonts -->
+	<!--
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" type="text/css" media="all">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css" media="all">
+	
+		
+	-->
+	<!-- //Fonts -->
+
+	<!-- Default-JavaScript -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<!-- //Head -->
+
+
+
+<!-- Body -->
+
+<body>
+
+	<h1>MovieMonk</h1>
+
+	<div class="containerw3layouts-agileits">
+
+		<div id="verticalTab" class="resp-vtabs w3-agile" style="display: block; width: 100%; margin: 0px;">
+
+			<ul class="resp-tabs-list agileits-w3layouts">
+				<li class="resp-tab-item"><span>About</span></li>
+				<li class="resp-tab-item"><span>Cast</span></li>
+				<li class="resp-tab-item agileinfo"><span>Summary</span></li>
+				
+				<li class="resp-tab-item"><span>Developer Credits</span></li>
+			</ul>
+
+			<div class="resp-tabs-container">
+
+				<div class="resp-tab-content">
+					<div class="agileabout">
+						<div class="agileabout-image w3-agileits" id="poster">
+						</div>
+						<div class="agileabout-info">
+							<ul>
+								<li>
+									<div class="li1">Title </div>
+									<div class="li2">:</div>
+									<div class="li3" id="title"> </div>
+									<div class="clearfix"></div>
+								</li>
+
+								<li>
+									<div class="li1">Release Date </div>
+									<div class="li2">:</div>
+									<div class="li3" id="released"> </div>
+									<div class="clearfix w3-agileits"></div>
+								</li>
+
+								<li>
+									<div class="li1">Runtime </div>
+									<div class="li2">:</div>
+									<div class="li3" id="runtime"> </div>
+									<div class="clearfix"></div>
+								</li>
+
+								<li>
+									<div class="li1">Genre </div>
+									<div class="li2">:</div>
+									<div class="li3" id="genre"> </div>
+									<div class="clearfix"></div>
+								</li>
+
+								<li>
+									<div class="li1">Rated </div>
+									<div class="li2">:</div>
+									<div class="li3" id="rated"> </div>
+									<div class="clearfix"></div>
+								</li>
+
+								<li>
+									<div class="li1">Directors </div>
+									<div class="li2 agileinfo">:</div>
+									<div class="li3" id="directors"> </div>
+									<div class="clearfix"></div>
+								</li>
+
+								<li>
+									<div class="li1">Writers </div>
+									<div class="li2">:</div>
+									<div class="li3" id="writer"> </div>
+									<div class="clearfix"></div>
+								</li>
+
+								<li>
+									<div class="li1 agileinfo">IMDB Rating </div>
+									<div class="li2">:</div>
+									<div class="li3" id="imdbrating"> </div>
+									<div class="clearfix wthree"></div>
+								</li>
+
+								<li>
+									<div class="li1 agileinfo">Website </div>
+									<div class="li2">:</div>
+									<div class="li3" id="website"> </div>
+									<div class="clearfix wthree"></div>
+								</li>
+
+
+							</ul>
+
+
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="resp-tab-content">
+
+					<div style="color: aliceblue" id="actors">
+
+
+					</div>
+
+				</div>
+
+				<div class="resp-tab-content">
+					<div class="work w3-agileits">
+						<div class="work-info">
+							<div id="plot">
+
+							</div>
+						</div>
+					</div>
+				</div>
+<!--
+				<div class="resp-tab-content">
+					<div class="our-skills">
+						<div class="single-skill">
+							<p class="lead">HTML</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-1">90%</div>
+							</div>
+						</div>
+						<div class="single-skill">
+							<p class="lead">CSS</p>
+							<div class="progress wthree">
+								<div class="progress-bar progress-bar-2">80%</div>
+							</div>
+						</div>
+						<div class="single-skill">
+							<p class="lead">JAVASCRIPT</p>
+							<div class="progress w3-agile">
+								<div class="progress-bar progress-bar-3">85%</div>
+							</div>
+						</div>
+						<div class="single-skill">
+							<p class="lead">PHP</p>
+							<div class="progress">
+								<div class="progress-bar agile progress-bar-4">95%</div>
+							</div>
+						</div>
+						<div class="single-skill">
+							<p class="lead">SQL</p>
+							<div class="progress w3layouts">
+								<div class="progress-bar progress-bar-5">75%</div>
+							</div>
+						</div>
+					</div>
+				</div>
+-->
+				<div class="resp-tab-content">
+					<div class="agileabout-info aitsabout">
+						<ul>
+							<li>
+										<div class="li1 w3-agile">Team</div>
+										<div class="li2">:</div>
+										<div class="li3">Debug</div>
+										<div class="clearfix"></div>
+									</li>
+									
+							<li>
+								<div class="li1">Name</div>
+								<div class="li2 wthree">:</div>
+								<div class="li3">Vishal Lakra, Gaurav Bharti, Alok Kumar, Sachit Damhija</div>
+								<div class="clearfix w3-agile"></div>
+							</li>
+							
+							<li>
+								<div class="li1">Website</div>
+								<div class="li2">:</div>
+								<div class="li3"><a href="https://github.com/codeasylums-bootcamp/debug_may-19">https://github.com/codeasylums-bootcamp/debug_may-19</a></div>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="social-icons w3layouts agileits">
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+
+			</div>
+			<div class="clear w3-agile"></div>
+
+		</div>
+
+	</div>
+
+
+
+
+	<!-- Necessary-JavaScript-Files-&-Links -->
+
+	<!-- Tabs-JavaScript -->
+	<script >
+
+
+var search=window.location.search
+
+var ind=search.indexOf("=");
+
+
+
+search=search.substring(ind)
+console.log(search)
+
+search="http://www.omdbapi.com/?apikey=2448689e&t="+search
+console.log("asd")
+axios.get(search)
+    .then(function (response) {
+        console.log("asd")
+        console.log(response)
+        //poster
+        var img = response.data.Poster
+        console.log(img)
+        var el_img = document.getElementById("poster")
+        var poster_el = document.createElement("img")
+        poster_el.src = img
+        console.log(poster_el)
+        poster_el.style = "width:100%"
+        el_img.appendChild(poster_el)
+
+
+        //title    
+        var title = response.data.Title
+        var el_title = document.getElementById("title")
+        var title_el = document.createElement("span")
+        title_el.innerHTML = title
+        console.log(title_el)
+
+        el_title.appendChild(title_el)
+        //done
+
+        //released
+        var released = response.data.Released
+        var el_released = document.getElementById("released")
+        var released_el = document.createElement("span")
+        released_el.innerHTML = released
+        console.log(released_el)
+
+        el_released.appendChild(released_el)
+
+        //runtime
+        var runtime = response.data.Runtime
+        var el_runtime = document.getElementById("runtime")
+        var runtime_el = document.createElement("span")
+        runtime_el.innerHTML = runtime
+        console.log(runtime_el)
+        el_runtime.appendChild(runtime_el)
+
+
+        //genre
+        var genre = response.data.Genre
+        var el_genre = document.getElementById("genre")
+        var genre_el = document.createElement("span")
+        genre_el.innerHTML = genre
+        console.log(genre_el)
+        el_genre.appendChild(genre_el)
+
+        //rated
+        var rated = response.data.Rated
+        var el_rated = document.getElementById("rated")
+        var rated_el = document.createElement("span")
+        rated_el.innerHTML = rated
+        console.log(rated_el)
+        el_rated.appendChild(rated_el)
+
+
+        //directors
+        var directors = response.data.Director
+        var el_directors = document.getElementById("directors")
+        var directors_el = document.createElement("span")
+        directors_el.innerHTML = directors
+        console.log(directors_el)
+        el_directors.appendChild(directors_el)
+
+        //writer
+        var writer = response.data.Writer
+        var el_writer = document.getElementById("writer")
+        var writer_el = document.createElement("span")
+        writer_el.innerHTML = writer
+        console.log(writer_el)
+        el_writer.appendChild(writer_el)
+
+        //imdbrating
+        var imdbrating = response.data.imdbRating
+        var el_imdbrating = document.getElementById("imdbrating")
+        var imdbrating_el = document.createElement("span")
+
+        var imdbid = response.data.imdbID
+        var lnk = document.createElement("a")
+        lnk.href = "https://www.imdb.com/title/" + imdbid
+        lnk.innerText = imdbrating
+        imdbrating_el.appendChild(lnk)
+        console.log(imdbrating_el)
+        el_imdbrating.appendChild(imdbrating_el)
+
+        /*
+        //imdbid
+        
+        var el_imdbid=document.getElementById("imdbid")
+        var imdbid_el=document.createElement("span")
+        imdbid_el.innerText="IMDB-ID : "
+        
+        
+        lnk.innerText=imdbid
+        //console.log(lnk)
+        imdbid_el.appendChild(lnk)
+        console.log(imdbid_el)
+        el_imdbid.appendChild(imdbid_el)
+        
+        
+        //metascore
+        var metascore=response.data.Metascore
+        var el_metascore=document.getElementById("metascore")
+        var metascore_el=document.createElement("metascore")
+        metascore_el.innerHTML="MetaScore : "+metascore
+        console.log(metascore_el)
+        el_metascore.appendChild(metascore_el)
+        */
+
+
+
+
+
+        //website
+        var website = response.data.Website
+        var el_website = document.getElementById("website")
+        var website_el = document.createElement("span")
+        website_el.innerHTML = website
+        console.log(website_el)
+        el_website.appendChild(website_el)
+        //////////////////////////////////////////////
+
+        /*
+                        //production
+                        var production = response.data.Production
+                        var el_production = document.getElementById("production")
+                        var production_el = document.createElement("span")
+                        production_el.innerHTML = production
+                        console.log(production_el)
+                        el_production.appendChild(production_el)
+        
+        
+        
+        
+                        //language
+                        var language = response.data.Language
+                        var el_language = document.getElementById("language")
+                        var language_el = document.createElement("span")
+                        language_el.innerHTML = language
+                        console.log(language_el)
+                        el_language.appendChild(language_el)
+        */
+        //plot
+        var plot = response.data.Plot
+        var el_plot = document.getElementById("plot")
+        var plot_el = document.createElement("span")
+        plot_el.innerHTML = plot
+        console.log(plot_el)
+        el_plot.appendChild(plot_el)
+        console.log(el_plot)
+
+
+
+        //////////////////////////////////////////////
+
+        //actors
+        var actors = response.data.Actors
+        var el_actors = document.getElementById("actors")
+        var actors_el = document.createElement("span")
+        actors_el.innerHTML = actors
+        el_actors.appendChild(actors_el)
+		console.log(el_actors)
+        
+
+
+
+
+
+
+    })
+    .catch(function (err) {
+        console.log(err)
+
+    })
+
+
+
+
+
+
+
+		</script>
+
+
+
+	<script src="js/easyResponsiveTabs.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default',
+				width: 'auto',
+				fit: true,
+				closed: 'accordion',
+				activate: function (event) {
+					var $tab = $(this);
+					var $info = $('#tabInfo');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
+			});
+			$('#verticalTab').easyResponsiveTabs({
+				type: 'vertical',
+				width: 'auto',
+				fit: true
+			});
+		});
+	</script>
+
+
+
+</body>
+
+</html>
